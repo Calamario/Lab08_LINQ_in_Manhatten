@@ -4,7 +4,9 @@ using System.Text;
 
 namespace LINQ_in_Manhatten.Classes
 {
-    abstract class Features
+    class RootObject
     {
+        public string type { get; set; }
+        public List<Feature> features { get; set; }
     }
 }
